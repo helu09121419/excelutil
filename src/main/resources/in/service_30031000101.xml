@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Service> 
+  <request> 
+    <sdoroot> 
+      <Service_Header> 
+        <service_sn metadataid="service_sn"/>  
+        <system_id metadataid="system_id"/>  
+        <requester_id metadataid="requester_id"/>  
+        <branch_id metadataid="branch_id"/>  
+        <channel_id metadataid="channel_id"/>  
+        <service_time metadataid="service_time"/>  
+        <need_request metadataid="need_request"/>  
+        <SvcCd metadataid="SvcCd"/>  
+        <SvcScn metadataid="SvcScn"/>  
+        <BnkSrlNo metadataid="BnkSrlNo"/>  
+        <FileFlg metadataid="FileFlg"/>  
+        <FilePath metadataid="FilePath"/> 
+      </Service_Header>  
+      <Service_Body> 
+        <PP0320 metadataid="PP0320"/>
+        <PP0520 metadataid="PP0520"/>
+        <PP0641 metadataid="PP0641"/>
+        <PPZ001 metadataid="PPZ001"/>
+        <PP0642 metadataid="PP0642"/>
+        <PP0601 metadataid="PP0601"/>
+        <PPZ006 metadataid="PPZ006"/>
+        <PPZ007 metadataid="PPZ007"/>
+        <PPZ008 metadataid="PPZ008"/>
+        <PPZ009 metadataid="PPZ009"/>
+        <PPZ002 metadataid="PPZ002"/>
+        <PP0607 metadataid="PP0607"/>
+        <PP0609 metadataid="PP0609"/>
+        <PP0608 metadataid="PP0608"/>
+        <PP060C metadataid="PP060C"/>
+        <PP0490 metadataid="PP0490"/>
+        <PP060E metadataid="PP060E"/>
+        <PP9026 metadataid="PP9026"/>
+        <PP1020 metadataid="PP1020"/>
+        <PP0330 metadataid="PP0330"/>
+        <PP1226 metadataid="PP1226"/>
+        <PP0616 metadataid="PP0616"/>
+        <PP0618 metadataid="PP0618"/>
+        <PP122C metadataid="PP122C"/>
+        <PP122D metadataid="PP122D"/>
+        <PP122G metadataid="PP122G"/>
+        <PP1193 metadataid="PP1193"/>
+        <PP114M metadataid="PP114M"/>
+        <PP0140 metadataid="PP0140"/>
+        <PP1152 metadataid="PP1152"/>
+        <PP0020 metadataid="PP0020"/>
+        <PP114V metadataid="PP114V"/>
+        <PP0661 metadataid="PP0661"/>
+        <PP0220 metadataid="PP0220"/>
+        <PP1159 metadataid="PP1159"/>
+        <PP119B metadataid="PP119B"/>
+        <PP0628 metadataid="PP0628"/>
+        <PP115D metadataid="PP115D"/>
+        <PP1281 metadataid="PP1281"/>
+        <PP0070 metadataid="PP0070"/>
+        <PP1282 metadataid="PP1282"/>
+        <PP070A metadataid="PP070A"/>
+        <PP0270 metadataid="PP0270"/>
+        <PP1285 metadataid="PP1285"/>
+        <PP0030 metadataid="PP0030"/>
+        <PP1286 metadataid="PP1286"/>
+        <PP1283 metadataid="PP1283"/>
+        <PP1284 metadataid="PP1284"/>
+        <PP0350 metadataid="PP0350"/>
+        <PP0110 metadataid="PP0110"/>
+        <PP0310 metadataid="PP0310"/>
+        <PP070M metadataid="PP070M"/>
+        <PP111Z metadataid="PP111Z"/>
+        <PP0719 metadataid="PP0719"/>
+        <PP1172 metadataid="PP1172"/>
+        <PP0360 metadataid="PP0360"/>
+        <PP0040 metadataid="PP0040"/>
+      </Service_Body> 
+    </sdoroot> 
+  </request>  
+  <response> 
+    <sdoroot> 
+      <Service_Header> 
+        <service_sn metadataid="service_sn"/>  
+        <system_id metadataid="system_id"/>  
+        <requester_id metadataid="requester_id"/>  
+        <branch_id metadataid="branch_id"/>  
+        <channel_id metadataid="channel_id"/>  
+        <service_time metadataid="service_time"/>  
+        <need_request metadataid="need_request"/>  
+        <SvcCd metadataid="SvcCd"/>  
+        <SvcScn metadataid="SvcScn"/>  
+        <BnkSrlNo metadataid="BnkSrlNo"/>  
+        <FileFlg metadataid="FileFlg"/>  
+        <FilePath metadataid="FilePath"/>  
+        <service_response metadataid="service_response" type="array" is_struct="false"> 
+          <sdo> 
+            <status metadataid="status"/>  
+            <code metadataid="code"/>  
+            <desc metadataid="desc"/> 
+          </sdo> 
+        </service_response> 
+      </Service_Header>  
+      <BODY> 
+        <PP011A metadataid="PP011A"/>
+        <PP0410 metadataid="PP0410"/>
+        <PP0871 metadataid="PP0871"/>
+        <PP0050 metadataid="PP0050"/>
+        <PP0380 metadataid="PP0380"/>
+        <PP0270 metadataid="PP0270"/>
+        <PP0060 metadataid="PP0060"/>
+        <PP0390 metadataid="PP0390"/>
+        <PP007A metadataid="PP007A"/>
+        <PP0150 metadataid="PP0150"/>
+      </BODY>  
+      <request>
+        <PP0320 metadataid="PP0320A"/>
+        <PP0520 metadataid="PP0520A"/>
+        <PP0641 metadataid="PP0641A"/>
+        <PPZ001 metadataid="PPZ001A"/>
+        <PP0642 metadataid="PP0642A"/>
+        <PP0601 metadataid="PP0601A"/>
+        <PPZ006 metadataid="PPZ006A"/>
+        <PPZ007 metadataid="PPZ007A"/>
+        <PPZ008 metadataid="PPZ008A"/>
+        <PPZ009 metadataid="PPZ009A"/>
+        <PPZ002 metadataid="PPZ002A"/>
+        <PP0607 metadataid="PP0607A"/>
+        <PP0609 metadataid="PP0609A"/>
+        <PP0608 metadataid="PP0608A"/>
+        <PP060C metadataid="PP060CA"/>
+        <PP0490 metadataid="PP0490A"/>
+        <PP060E metadataid="PP060EA"/>
+        <PP9026 metadataid="PP9026A"/>
+        <PP1020 metadataid="PP1020A"/>
+        <PP0330 metadataid="PP0330A"/>
+        <PP1226 metadataid="PP1226A"/>
+        <PP0616 metadataid="PP0616A"/>
+        <PP0618 metadataid="PP0618A"/>
+        <PP122C metadataid="PP122CA"/>
+        <PP122D metadataid="PP122DA"/>
+        <PP122G metadataid="PP122GA"/>
+        <PP1193 metadataid="PP1193A"/>
+        <PP114M metadataid="PP114MA"/>
+        <PP0140 metadataid="PP0140A"/>
+        <PP1152 metadataid="PP1152A"/>
+        <PP0020 metadataid="PP0020A"/>
+        <PP114V metadataid="PP114VA"/>
+        <PP0661 metadataid="PP0661A"/>
+        <PP0220 metadataid="PP0220A"/>
+        <PP1159 metadataid="PP1159A"/>
+        <PP119B metadataid="PP119BA"/>
+        <PP0628 metadataid="PP0628A"/>
+        <PP115D metadataid="PP115DA"/>
+        <PP1281 metadataid="PP1281A"/>
+        <PP0070 metadataid="PP0070A"/>
+        <PP1282 metadataid="PP1282A"/>
+        <PP070A metadataid="PP070AA"/>
+        <PP0270 metadataid="PP0270A"/>
+        <PP1285 metadataid="PP1285A"/>
+        <PP0030 metadataid="PP0030A"/>
+        <PP1286 metadataid="PP1286A"/>
+        <PP1283 metadataid="PP1283A"/>
+        <PP1284 metadataid="PP1284A"/>
+        <PP0350 metadataid="PP0350A"/>
+        <PP0110 metadataid="PP0110A"/>
+        <PP0310 metadataid="PP0310A"/>
+        <PP070M metadataid="PP070MA"/>
+        <PP111Z metadataid="PP111ZA"/>
+        <PP0719 metadataid="PP0719A"/>
+        <PP1172 metadataid="PP1172A"/>
+        <PP0360 metadataid="PP0360A"/>
+        <PP0040 metadataid="PP0040A"/>
+      </request>
+    </sdoroot> 
+  </response> 
+</Service>

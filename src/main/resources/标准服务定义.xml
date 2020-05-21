@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Service>
+  <request>
+    <sdoroot>
+      <Service_Header>
+        <service_sn metadataid="service_sn"/>
+        <system_id metadataid="system_id"/>
+        <requester_id metadataid="requester_id"/>
+        <branch_id metadataid="branch_id"/>
+        <channel_id metadataid="channel_id"/>
+        <service_time metadataid="service_time"/>
+        <need_request metadataid="need_request"/>
+        <SvcCd metadataid="SvcCd"/>
+        <SvcScn metadataid="SvcScn"/>
+        <BnkSrlNo metadataid="BnkSrlNo"/>
+        <FileFlg metadataid="FileFlg"/>
+        <FilePath metadataid="FilePath"/>
+      </Service_Header>
+      <Service_Body>
+
+      </Service_Body>
+    </sdoroot>
+  </request>
+  <response>
+    <sdoroot>
+      <Service_Header>
+        <service_sn metadataid="service_sn"/>
+        <system_id metadataid="system_id"/>
+        <requester_id metadataid="requester_id"/>
+        <branch_id metadataid="branch_id"/>
+        <channel_id metadataid="channel_id"/>
+        <service_time metadataid="service_time"/>
+        <need_request metadataid="need_request"/>
+        <SvcCd metadataid="SvcCd"/>
+        <SvcScn metadataid="SvcScn"/>
+        <BnkSrlNo metadataid="BnkSrlNo"/>
+        <FileFlg metadataid="FileFlg"/>
+        <FilePath metadataid="FilePath"/>
+        <service_response metadataid="service_response" type="array" is_struct="false">
+          <sdo>
+            <status metadataid="status"/>
+            <code metadataid="code"/>
+            <desc metadataid="desc"/>
+          </sdo>
+        </service_response>
+      </Service_Header>
+      <BODY>
+
+      </BODY>
+    </sdoroot>
+  </response>
+</Service>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Service package_type="xml"> 
+  <Service_Header> 
+    <service_sn metadataid="service_sn" chinese_name="ESB服务流水号"/>  
+    <system_id metadataid="system_id" chinese_name="目标系统代码"/>  
+    <requester_id metadataid="requester_id" chinese_name="请求方系统代码"/>  
+    <branch_id metadataid="branch_id" chinese_name="请求方机构代号"/>  
+    <channel_id metadataid="channel_id" chinese_name="服务渠道代号"/>  
+    <service_time metadataid="service_time" chinese_name="请求方服务时间"/>  
+    <need_request metadataid="need_request" chinese_name="是否需要请求信息标志"/>  
+    <SvcCd metadataid="SvcCd" chinese_name="服务代码"/>  
+    <SvcScn metadataid="SvcScn" chinese_name="场景代码"/>  
+    <BnkSrlNo metadataid="BnkSrlNo" chinese_name="全局流水号"/>  
+    <FileFlg metadataid="FileFlg" chinese_name="文件标志"/>  
+    <FilePath metadataid="FilePath" chinese_name="文件路径"/>  
+    <service_response metadataid="service_response" type="array" is_struct="false"> 
+      <status metadataid="status"/>  
+      <code metadataid="code"/>  
+      <desc metadataid="desc"/> 
+    </service_response> 
+  </Service_Header>  
+  <Service_Body> 
+    <response> 
+      <PP011A metadataid="PP011A"/>
+      <PP0410 metadataid="PP0410"/>
+      <PP0871 metadataid="PP0871"/>
+      <PP0050 metadataid="PP0050"/>
+      <PP0380 metadataid="PP0380"/>
+      <PP0270 metadataid="PP0270"/>
+      <PP0060 metadataid="PP0060"/>
+      <PP0390 metadataid="PP0390"/>
+      <PP007A metadataid="PP007A"/>
+      <PP0150 metadataid="PP0150"/>
+    </response> 
+  </Service_Body> 
+</Service>
